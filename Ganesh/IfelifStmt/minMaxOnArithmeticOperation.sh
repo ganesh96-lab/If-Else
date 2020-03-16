@@ -21,7 +21,7 @@ echo "Expression 4: "$resExp4
 echo "Maximum Result of Expression............................................................................."
 if [[ $resExp1 -gt $resExp2 && $resExp1 -gt $resExp3 && $resExp1 -gt $resExp4 ]]
 then
-	echo "First expression is maximum"
+   echo "First expression is maximum"
 
 elif [[ $resExp2 -gt $resExp1 && $resExp2 -gt $resExp3 && $resExp2 -gt $resExp4 ]]
 then
@@ -36,10 +36,9 @@ then
    echo "Four expression is maximum"
 
 else
-	echo "all are equal"
+   echo "all are equal"
 fi
-
-echo " "
+   echo " "
 
 # here find min on expression
 echo "Minimum Result of Expression............................................................................."
